@@ -1,0 +1,21 @@
+.QWidget #HeaderWidget{
+    background-color: #59f07a;
+    text-decoration: solid;
+    color: rgb(253, 249, 249);
+}
+.RowWidget #Selected{
+    background-color: red;
+}
+
+QLabel#Desc {
+    font-size: 12px;
+    min-width: 250px;
+    max-width: 250px;
+    color: rgb(22, 21, 21);
+}
+QLabel {
+    font-size: 12px;
+    min-width: 50px;
+    max-width: 50px;
+    color: rgb(22, 21, 21);
+}
