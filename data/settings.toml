@@ -1,0 +1,11 @@
+stylesheet="src/stylesheet.css"
+[table_settings]
+categories = [
+    "N/A",
+    "CAT1",
+    "CAT2"
+]
+show_count = 10
+start_index = 0
+
+
