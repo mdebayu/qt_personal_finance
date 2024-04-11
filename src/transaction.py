@@ -1,16 +1,22 @@
 """Transaction Dataclass"""
 from dataclasses import dataclass, field
 from itertools import count
+from datetime import datetime
 
 @dataclass
 class Transaction:
     """Transaction"""
     account: str
-    date: str
+    date_obj: datetime
     desc: str
-    amount: float
+    credit: float
+    debit: float
     category: str
     index: int = field(default_factory=count().__next__)
+
+    @property
+    def date(self):
+        return self.date_obj.strftime(r"%d-%b-%y")
 
     @property
     def csv_str(self) -> str:

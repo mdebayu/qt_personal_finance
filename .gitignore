@@ -2,3 +2,4 @@
 *.venv*
 *.egg-info*
 data/*.csv
+data/*_transactions/*

@@ -12,7 +12,7 @@ def main_gui():
     app = QApplication(sys.argv)
     cfg = get_cfg("data/settings.toml")
 
-    transactions = [
+    transactions = [ 
         Transaction("acc1","23Nov12","desc1",123.12,"n/a"),
         Transaction("acc1","23Nov12","desdnlakjdsnbfkasc1",538.12,"n/a"),
         Transaction("acc1","23Nov12","descad;slmflakdsfm1",1689.12,"n/a"),
